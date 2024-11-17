@@ -1,0 +1,20 @@
+{
+  "name": "chatbot-backend",
+  "version": "0.0.1",
+  "description": "chatbot backend",
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-lex-model-building-service": "^3.693.0",
+    "@aws-sdk/client-lex-runtime-v2": "^3.693.0",
+    "@aws-sdk/client-s3": "^3.693.0",
+    "aws-sdk": "^2.1623.0",
+    "body-parser": "^1.20.2",
+    "chatbot-backend": "file:",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17"
+  }
+}
